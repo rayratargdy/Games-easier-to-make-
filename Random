@@ -1,0 +1,15 @@
+import random
+x=random.randint(1,99)
+player1=int(input('Type it one number between 0-100'))
+smaller=0
+bigger=100
+while player1!=x:
+    if player1>smaller and player1<x:
+        print('Type it one number between',player1,'and',bigger)
+        smaller=player1
+        player1=int(input())
+    elif player1<bigger and player1>x:
+        print('Type it one number between',smaller,'and',player1)
+        bigger=player1
+        player1=int(input())
+print('okay')
