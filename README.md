@@ -1,2 +1,2 @@
-# Games-easier-to-make-
+# Games
 Here's some of my first games 
