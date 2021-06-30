@@ -1,0 +1,6 @@
+n.onkey(fd,"Up") #Front/Back
+wn.onkey(left,"Left")#Left
+wn.onkey(right,"Right") #Rigth
+wn.onkey(sair, "q") #Leave the game  
+wn.listen() #Star the game 
+wn.mainloop() #Star the animation 
