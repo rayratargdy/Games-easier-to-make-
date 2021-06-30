@@ -1,0 +1,18 @@
+rom tkinter import *
+
+
+def bt_click():
+    print('bt_click')
+    
+    lb['text'] = 'Bem-Vindo de volta!'
+    
+janela = Tk()
+
+bt = Button(janela, width=20, text='Reset', command=bt_click)
+bt.place(x=100, y=150)
+
+lb= Label(janela, text='TRY AGIN HERE')
+lb.place(x=100,y=200)
+
+janela.geometry('300*300+200+200')
+janela.mainloop()
